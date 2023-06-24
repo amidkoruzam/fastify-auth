@@ -1,0 +1,28 @@
+{
+  "name": "fastify-auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --exec \"node --loader ts-node/esm\" src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cookie": "^0.5.0",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.18.0",
+    "nanoid": "^3.3.6",
+    "redis": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/cookie": "^0.5.1",
+    "fastify-plugin": "^4.5.0",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  }
+}
